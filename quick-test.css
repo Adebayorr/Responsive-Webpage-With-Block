@@ -1,3 +1,6 @@
+@import url('https://fonts.googleapis.com/css2?family=Alice&family=Bangers&family=Changa:wght@300&family=Jost:wght@300&family=Kdam+Thmor+Pro&family=Nunito+Sans:ital,wght@0,200;0,400;1,200&family=Overpass:ital,wght@0,200;1,100;1,200&family=Roboto:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Alice&family=Bangers&family=Changa:wght@300&family=Jost:wght@300&family=Kdam+Thmor+Pro&family=Nunito+Sans:ital,wght@0,200;0,400;1,200&family=Oswald&display=swap');
+
 * {
   margin: 0;
   font-size: 13.5px;
@@ -9,6 +12,7 @@
 body {
   background: black;
   color: #ffffff;
+  font-family: 'Roboto', Arial;
 }
 
 .nav-section{
@@ -46,16 +50,12 @@ body {
 }
 
 .nav-links ul{
-
   list-style: none;
-
-
 }
 
 .links {
   display: inline-block;
   margin: 10px;
-
 }
 
 .links > a {
@@ -63,8 +63,6 @@ body {
   text-decoration: none;
   color: #ffffff;
   font-size: 14px;
-
-
 }
 
 
@@ -72,8 +70,8 @@ body {
 .links > a:active
 {
   border-bottom: 2px solid white;
-
 }
+
 .black-button {
   background: black;
   border-radius: 4px;
@@ -107,6 +105,7 @@ body {
 }
 
 .hero-text>h1 {
+  font-family: 'Oswald', sans-serif;
   font-size: 25px;
   color: #ff5400;
 }
@@ -135,4 +134,49 @@ body {
 .hero-text>button:active {
   color: #ffffff;
   border: 1.5px solid #ff5400;
+}
+
+#service-section {
+  margin: 35px 0 0 0;
+  text-align: center;
+}
+
+.service-heading{
+  font-family: 'Oswald', sans-serif;
+  font-size: 25px;
+  margin-bottom: 15px;
+}
+
+.service-variety {
+  height: 40vh;
+  width: 30%;
+  background: #ff5400;
+  display: inline-block;
+  text-align: center;
+  padding: 2em 1em 1em 1em;
+  vertical-align: middle;
+}
+
+.most-common {
+  margin: 0px 10px 0px 10px;
+  height: 42vh;
+}
+
+.service__name {
+  font-size: 1.6em;
+  margin: .5em;
+}
+
+.service__name+h2 {
+  font-size: 1.2em;
+}
+
+.service__name+h2+ul {
+  list-style: none;
+  padding: 10px 5px;
+}
+
+#service-section li {
+  /* line-height: 2px; */
+  padding: 2px;
 }
